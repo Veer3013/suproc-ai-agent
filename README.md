@@ -7,7 +7,7 @@ An AI-powered procurement assistant that understands natural language requiremen
 # Features
 
 - Natural language procurement queries
-- Ollama (Qwen 3 4B) powered requirement parsing
+- Ollama (Qwen3:4b) powered requirement parsing
 - AI planning before execution
 - SQLAlchemy + SQLite supplier database
 - Exact supplier search
@@ -97,44 +97,42 @@ suproc-agent/
 
 # Installation
 
-Clone the repository
+### Clone Repository
 
 ```bash
 git clone <repository-url>
 cd suproc-agent
 ```
 
-Create a virtual environment
+### Create Virtual Environment
 
 ```bash
 python -m venv .venv
 ```
 
-Activate the environment
-
-Windows
+### Activate Environment (Windows)
 
 ```bash
 .venv\Scripts\activate
 ```
 
-Install dependencies
+### Install Dependencies
 
 ```bash
 pip install -r requirements.txt
 ```
 
-Install Ollama
+### Install Ollama
 
 https://ollama.com/
 
-Download the model
+### Download Model
 
 ```bash
 ollama pull qwen3:4b
 ```
 
-Start Ollama
+### Start Ollama
 
 ```bash
 ollama serve
@@ -142,7 +140,7 @@ ollama serve
 
 ---
 
-# Run the Project
+# Run Project
 
 ```bash
 python main.py
@@ -250,4 +248,4 @@ Instead, it generates an outreach draft and waits for manual approval before any
 
 # Author
 
-Developed as an AI Procurement Agent using Python, SQLAlchemy, SQLite, and Ollama (Qwen3).
+Developed as an AI Procurement Agent using Python, SQLAlchemy, SQLite, and Ollama (Qwen3:4b).

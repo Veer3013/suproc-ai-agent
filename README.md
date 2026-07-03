@@ -235,6 +235,15 @@ Instead, it generates an outreach draft and waits for manual approval before any
 
 ---
 
+# Known Limitations
+
+• Synthetic dataset
+• No live supplier APIs
+• CLI interface
+• No email integration
+
+---
+
 # Future Improvements
 
 - Live supplier APIs
